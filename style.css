@@ -76,3 +76,52 @@ nav ul li:hover
 {
     border-bottom: 5px solid #ff0000;
 }
+.btn 
+{
+   padding: 15px 15px;
+   border-radius: 15px;
+   background-color: chartreuse;
+   font-size: 15px;
+   color: black;
+   font-weight: 500;
+   border: none;
+   text-align: center;
+}
+.btn :hover
+{
+   background-color:chartreuse;
+   color: black;
+}
+.navbar.navbar.sticky .btn
+{
+   background-color: #ff0000;
+}
+.btn
+{
+   margin-left: 50px;
+}
+.menu-bar
+{
+   height: 25px;
+   width: 25px;
+   padding-top: 25px;
+   align-items: center;
+   outline: 5px solid red;
+   display: none;
+}
+.menu-bar i
+{
+   font-size:  3rem;
+}
+.content
+{
+   margin:  2rem 2;
+   padding: 2rem 2;
+}
+
+.container
+{
+   padding:  50px 10%;
+   display: flex;
+   justify-content: space-between;
+}

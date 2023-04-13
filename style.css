@@ -180,4 +180,12 @@ nav ul li:hover
    border-radius: 20%;
    animation: updownLinkedIn 4s infinite;
 }
-@key
+@keyframes updownLinkedIn{
+   0%,
+   100%{
+      transform: translate(-1px, -1px);
+   }
+   50%{
+      transform: translate(-10px, -10px);
+   }
+}
